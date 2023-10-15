@@ -1,0 +1,2217 @@
+fileFormatVersion: 2
+guid: 7cb07eeb50a1dd449a8d89b288b6cf22
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc7a43579698a44ca30002817e822b4
+      internalID: -400956085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 224.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3abb126fd3130458b55e68ec8fa382
+      internalID: -358235944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 224.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4f4874c7e7dcb429ad64a52a2d775b
+      internalID: -232212381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 224.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e5e81c829adf1499883f76786138d5
+      internalID: 433404891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 224.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2f1769a3fa21f459423b5ae3a4e04a
+      internalID: -1800788529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 224.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0180bc284975ed64a83f8c15a399a119
+      internalID: 2086051292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 224.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c4469eb61f2af42bba900252ab68d6
+      internalID: -1662843129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 224.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005022e6870a61a429d0f5b407e71e6f
+      internalID: 664503922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 224.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc241fe564f38564e9489a41cfc5201f
+      internalID: 1784752495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 224.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d238eee8878e92046a890cb4cbbb851d
+      internalID: -1784896989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 224.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a863e545d925347b1a21a73943b8bb
+      internalID: 362581802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 224.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471a416e6e781d14f8dad119d2f0a44c
+      internalID: 1247990076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0f620036eef1649b6483046a4c58d8
+      internalID: -1046254835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 192.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a15eaac76fc1b4eb275b5cfad38d0b
+      internalID: -544966554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 192.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df53d2e9d15dbf34e97a0ef76fc90dbe
+      internalID: 173103124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 192.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976ef6ab21c62ab4db929ee5b1cb7767
+      internalID: -1198253083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_16
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 192.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d20f0047d42e0e45996ed23a3122008
+      internalID: -103856559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 192.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7e64e62c3a55743a2cc07e10ec4a8a
+      internalID: 1528550696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_18
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 192.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51aaa64b747a58841aaa4801058cea70
+      internalID: 466131619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_19
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 192.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20396f4da57265b46b6046ae15af770e
+      internalID: 4207919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 192.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea56fb7536adae045b42c9f40b9346ec
+      internalID: -282802300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 192.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5aceda99dcabc84987b43122128f934
+      internalID: 1250523209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_22
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 192.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d341a93b625ef4e91e0b205f6b4ce8
+      internalID: -1625604327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_23
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 192.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0eb70ead1f922449e8e9126c66f3c5
+      internalID: -1698683682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35290abb5a32fe439feeee81e2e6924
+      internalID: 1734404601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_25
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 160.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd0fac20667c9440b7d891b49c00b25
+      internalID: -302053634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_26
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 160.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a193c977796c44bbb8ad9b61e76f93
+      internalID: 1802945575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_27
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 160.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebc4f89578b0a84bb03ad67a98ae585
+      internalID: 1420172216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_28
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 160.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727814862e70fdf49a585f418589c234
+      internalID: 465198500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_29
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 160.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea7f2ede57370f4c9440401616ead11
+      internalID: 276283105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_30
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 160.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160fce59d05634e47af8566dd98cb280
+      internalID: -2001864058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_31
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 160.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c490699916f4afa498bfd6044c32b08a
+      internalID: -726099052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_32
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 160.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce8f4fa15375484f937a1158b05b10a
+      internalID: 823691273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_33
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 160.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59f5ab35115594419be8ee4921e8a3d
+      internalID: -265505990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_34
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 160.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc37dbfe609f254dac9b54290375974
+      internalID: 643222334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_35
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 160.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db32965fea82de419f3eb7a52775a38
+      internalID: 2143523587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ea4f6c6c687fa44970c70f4face2fa
+      internalID: 1276895752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 128.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03c555353c32c74ab26a38f456ac752
+      internalID: 1614966317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_38
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 128.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be14d5f3db73cbd4cb0bda48d981121f
+      internalID: 1300588931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 128.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87930325f275bdd4a92ce9ecd84f661f
+      internalID: 1184564112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_40
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 128.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0b69ff2fda2c746ab94a1542610f81
+      internalID: -320394241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_41
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 128.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2e069ebd2f92043a83c9f60c3e49f3
+      internalID: 1551836175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_42
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 128.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bb5e7dd80079448ba15dc7c3ddb0e1
+      internalID: -1089572916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_43
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 128.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fa424371025e1488ef400294fbbd2d
+      internalID: 294310826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_44
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 128.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6848b2e48add9b343bdd6e15bf0dc648
+      internalID: 712771714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_45
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 128.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de837833f57e6a242b0f63b44520b196
+      internalID: 1701184552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_46
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 128.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d43cd429d9fbd4ba0a2999480214fb
+      internalID: 961496748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_47
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 128.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223c41383606fe348a1b257bf32a8686
+      internalID: 1073859062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67cb7309a0e659418892f6d7293526c
+      internalID: 1401401553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_49
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 96.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183157e944532744c8907272d04b3f64
+      internalID: -285973272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 96.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec561f24f227ce44b72740c3cae22b6
+      internalID: 1215635041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_51
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 96.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582428e8b6af6564697b03befc487e3d
+      internalID: -1972877333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_52
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 96.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d40ac90b39950b4eaa9938e54ea3877
+      internalID: -1251548371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_53
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 96.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd1ee7d5bd71374d8adcfd5dc4d1ee3
+      internalID: 1512294709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_54
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 96.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46194309baea624582d4fce12bee929
+      internalID: -1861504848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_55
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 96.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbbafae5d2530241b023fe6c00a4631
+      internalID: 1466273524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_56
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 96.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668d9f84ea3da4044bfc11e041b76194
+      internalID: -627391568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_57
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 96.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a44fbe82eb40344a053a1d3cf0f0dc
+      internalID: 1603917035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_58
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 96.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbb7dcc74e08bf4d89dc8bf48b74a93
+      internalID: 55793401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_59
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 96.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949a298bd623b4e4ab19180651a5f1b7
+      internalID: 370515919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba36c1b0806ed741b6c30a86c2798ad
+      internalID: -668468704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 64.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60af623d72776fa4dbf25429eac75a2e
+      internalID: -984890650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_62
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 64.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f421921fd19b0844a3cbef896241312
+      internalID: 480454234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_63
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 64.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adbac0a50be12c47ba09668c4423f46
+      internalID: 1086965061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_64
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 64.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff40fb2ff0f8da946a65800819833ec3
+      internalID: 635871347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_65
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 64.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466fa7422b9635642a95bfe7421e1256
+      internalID: 1769923960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_66
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 64.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839a4ddaa3ffa2949a2deb4cea8ec815
+      internalID: 1651466137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_67
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 64.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b202c7d9dd37cda448ad9752b40c8fe1
+      internalID: 2104140733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_68
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 64.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16433a187e4a04c48beb9ee66052034d
+      internalID: -1501741196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_69
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 64.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822b9033852f5aa428a5e378984a1c04
+      internalID: 525574883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_70
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 64.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d015e88783e8d4ea3d63fd4c253b2c
+      internalID: 1533093382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_71
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 64.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a22f5e77bc64e4f98ae23a7a2edd21
+      internalID: 1539086627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d31d8be06bad654f8ffdc14e9ab92d9
+      internalID: -1225953363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_73
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 32.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ff51dfc8c63924ba9ae0fd9334adc0
+      internalID: 1891239542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_74
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 32.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1271d6449964914980e0da19f404f47
+      internalID: -384486748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_75
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 32.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38a17531a497ae4c847437dc102120c
+      internalID: 2035344984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_76
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 32.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c60c423cfdf3394197f960d7e46b19d
+      internalID: 1151664307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_77
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 32.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8ec8e73c6b97c42ac16f0c17916c51
+      internalID: -143643659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_78
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 32.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1226391ce38cc124c8f8487069849de9
+      internalID: 1183009449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_79
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 32.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41bf9699db297144ba079c2ade6ee19
+      internalID: 1303008305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_80
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 32.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144975960a78b034780b0a35a0dad7e7
+      internalID: 1867351356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_81
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 32.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794294923a361a248a1be267a16b47a7
+      internalID: -190323878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_82
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 32.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac385d23087dcbf4c8e348e7503f52c2
+      internalID: -1367029413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_83
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 32.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50f69be8367b8a4ab30b8fca038a045
+      internalID: -1193289765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8d7c1f2ccd2f344a73fd73afa42cd7
+      internalID: -763791835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_85
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7e02bdb793d964392bc1c02d5bcdbe
+      internalID: 1501763523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_86
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cc7d4e7921e1e489c4a370e2f45e30
+      internalID: 407096795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_87
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe4102cb22b9a54fb790a2be6e74ec9
+      internalID: 464678201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_88
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53001d9ec4acfe745aba1e519e38c568
+      internalID: -68294235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_89
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78afede94c2b6394cbbdf89d01bc6f54
+      internalID: 1939839987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_90
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657522ac2880dc642896db263b8adc91
+      internalID: -777721499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_91
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d664aafc486bf6f438f67c06dbae70b2
+      internalID: -1426996321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_92
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7427aa6585ccd85439470cd21a0a9014
+      internalID: -350140859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_93
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03551c83e64fb62428c0cdeb61060f1c
+      internalID: -1445011678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master System - Psycho Fox - Main Characters_94
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0.875
+        width: 17
+        height: 32.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b159bbc3db594d54883ce5b1a9a3ffc0
+      internalID: 772484944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Master System - Psycho Fox - Main Characters_0: -400956085
+      Master System - Psycho Fox - Main Characters_1: -358235944
+      Master System - Psycho Fox - Main Characters_10: 362581802
+      Master System - Psycho Fox - Main Characters_11: 1247990076
+      Master System - Psycho Fox - Main Characters_12: -1046254835
+      Master System - Psycho Fox - Main Characters_13: -544966554
+      Master System - Psycho Fox - Main Characters_14: 173103124
+      Master System - Psycho Fox - Main Characters_15: -1198253083
+      Master System - Psycho Fox - Main Characters_16: -103856559
+      Master System - Psycho Fox - Main Characters_17: 1528550696
+      Master System - Psycho Fox - Main Characters_18: 466131619
+      Master System - Psycho Fox - Main Characters_19: 4207919
+      Master System - Psycho Fox - Main Characters_2: -232212381
+      Master System - Psycho Fox - Main Characters_20: -282802300
+      Master System - Psycho Fox - Main Characters_21: 1250523209
+      Master System - Psycho Fox - Main Characters_22: -1625604327
+      Master System - Psycho Fox - Main Characters_23: -1698683682
+      Master System - Psycho Fox - Main Characters_24: 1734404601
+      Master System - Psycho Fox - Main Characters_25: -302053634
+      Master System - Psycho Fox - Main Characters_26: 1802945575
+      Master System - Psycho Fox - Main Characters_27: 1420172216
+      Master System - Psycho Fox - Main Characters_28: 465198500
+      Master System - Psycho Fox - Main Characters_29: 276283105
+      Master System - Psycho Fox - Main Characters_3: 433404891
+      Master System - Psycho Fox - Main Characters_30: -2001864058
+      Master System - Psycho Fox - Main Characters_31: -726099052
+      Master System - Psycho Fox - Main Characters_32: 823691273
+      Master System - Psycho Fox - Main Characters_33: -265505990
+      Master System - Psycho Fox - Main Characters_34: 643222334
+      Master System - Psycho Fox - Main Characters_35: 2143523587
+      Master System - Psycho Fox - Main Characters_36: 1276895752
+      Master System - Psycho Fox - Main Characters_37: 1614966317
+      Master System - Psycho Fox - Main Characters_38: 1300588931
+      Master System - Psycho Fox - Main Characters_39: 1184564112
+      Master System - Psycho Fox - Main Characters_4: -1800788529
+      Master System - Psycho Fox - Main Characters_40: -320394241
+      Master System - Psycho Fox - Main Characters_41: 1551836175
+      Master System - Psycho Fox - Main Characters_42: -1089572916
+      Master System - Psycho Fox - Main Characters_43: 294310826
+      Master System - Psycho Fox - Main Characters_44: 712771714
+      Master System - Psycho Fox - Main Characters_45: 1701184552
+      Master System - Psycho Fox - Main Characters_46: 961496748
+      Master System - Psycho Fox - Main Characters_47: 1073859062
+      Master System - Psycho Fox - Main Characters_48: 1401401553
+      Master System - Psycho Fox - Main Characters_49: -285973272
+      Master System - Psycho Fox - Main Characters_5: 2086051292
+      Master System - Psycho Fox - Main Characters_50: 1215635041
+      Master System - Psycho Fox - Main Characters_51: -1972877333
+      Master System - Psycho Fox - Main Characters_52: -1251548371
+      Master System - Psycho Fox - Main Characters_53: 1512294709
+      Master System - Psycho Fox - Main Characters_54: -1861504848
+      Master System - Psycho Fox - Main Characters_55: 1466273524
+      Master System - Psycho Fox - Main Characters_56: -627391568
+      Master System - Psycho Fox - Main Characters_57: 1603917035
+      Master System - Psycho Fox - Main Characters_58: 55793401
+      Master System - Psycho Fox - Main Characters_59: 370515919
+      Master System - Psycho Fox - Main Characters_6: -1662843129
+      Master System - Psycho Fox - Main Characters_60: -668468704
+      Master System - Psycho Fox - Main Characters_61: -984890650
+      Master System - Psycho Fox - Main Characters_62: 480454234
+      Master System - Psycho Fox - Main Characters_63: 1086965061
+      Master System - Psycho Fox - Main Characters_64: 635871347
+      Master System - Psycho Fox - Main Characters_65: 1769923960
+      Master System - Psycho Fox - Main Characters_66: 1651466137
+      Master System - Psycho Fox - Main Characters_67: 2104140733
+      Master System - Psycho Fox - Main Characters_68: -1501741196
+      Master System - Psycho Fox - Main Characters_69: 525574883
+      Master System - Psycho Fox - Main Characters_7: 664503922
+      Master System - Psycho Fox - Main Characters_70: 1533093382
+      Master System - Psycho Fox - Main Characters_71: 1539086627
+      Master System - Psycho Fox - Main Characters_72: -1225953363
+      Master System - Psycho Fox - Main Characters_73: 1891239542
+      Master System - Psycho Fox - Main Characters_74: -384486748
+      Master System - Psycho Fox - Main Characters_75: 2035344984
+      Master System - Psycho Fox - Main Characters_76: 1151664307
+      Master System - Psycho Fox - Main Characters_77: -143643659
+      Master System - Psycho Fox - Main Characters_78: 1183009449
+      Master System - Psycho Fox - Main Characters_79: 1303008305
+      Master System - Psycho Fox - Main Characters_8: 1784752495
+      Master System - Psycho Fox - Main Characters_80: 1867351356
+      Master System - Psycho Fox - Main Characters_81: -190323878
+      Master System - Psycho Fox - Main Characters_82: -1367029413
+      Master System - Psycho Fox - Main Characters_83: -1193289765
+      Master System - Psycho Fox - Main Characters_84: -763791835
+      Master System - Psycho Fox - Main Characters_85: 1501763523
+      Master System - Psycho Fox - Main Characters_86: 407096795
+      Master System - Psycho Fox - Main Characters_87: 464678201
+      Master System - Psycho Fox - Main Characters_88: -68294235
+      Master System - Psycho Fox - Main Characters_89: 1939839987
+      Master System - Psycho Fox - Main Characters_9: -1784896989
+      Master System - Psycho Fox - Main Characters_90: -777721499
+      Master System - Psycho Fox - Main Characters_91: -1426996321
+      Master System - Psycho Fox - Main Characters_92: -350140859
+      Master System - Psycho Fox - Main Characters_93: -1445011678
+      Master System - Psycho Fox - Main Characters_94: 772484944
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
