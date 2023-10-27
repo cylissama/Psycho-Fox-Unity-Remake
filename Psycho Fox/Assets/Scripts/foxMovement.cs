@@ -9,7 +9,7 @@ public class foxMovement : MonoBehaviour
     private SpriteRenderer sprite;
     float horizontalInput;
     public float jumpForce = 0.5f;
-    private bool isGrounded;
+    private bool isGrounded = true;
     private Rigidbody2D rb;
     private void Start()
     {
@@ -32,11 +32,12 @@ public class foxMovement : MonoBehaviour
         // Move the player
         transform.Translate(movement * moveSpeed * Time.deltaTime);
 
-        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 0.1f);
+        //isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 0.1f);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            isGrounded = false;
             anim.SetBool("isJump", true);
             StartCoroutine(waiter());
         }
@@ -48,8 +49,9 @@ public class foxMovement : MonoBehaviour
     // this solution is bad but it works for right now
     IEnumerator waiter()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.6f);
         anim.SetBool("isJump", false);
+        isGrounded = true;
     }
 
     private void UpdateAnimatorState()
