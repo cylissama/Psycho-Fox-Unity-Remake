@@ -6,7 +6,11 @@ public class EnemyManager : MonoBehaviour
 {
     public static EnemyManager Instance { get; private set; }
 
-    public GameObject enemyPrefab;
+    public GameObject enemyOne;
+    public GameObject enemyTwo;
+
+    public GameObject fox;
+    private CircleCollider2D colliderObj;
 
     private List<Enemy> allEnemies = new List<Enemy>();
 
@@ -22,11 +26,18 @@ public class EnemyManager : MonoBehaviour
     }
 
     private void Start() {
-        SpawnEnemy(new Vector3(0, -0.13f, 0));
+
+        if (fox != null)
+        {
+            colliderObj = fox.GetComponent<CircleCollider2D>();
+        }
+
+        SpawnEnemy(new Vector3(0, -0.13f, 0), enemyOne);
+        SpawnEnemy(new Vector3(0.5f, -0.08f, 0), enemyTwo);
     }
 
     void Update() {
-        MoveEnemies(Vector3.left); 
+
     }
 
     public void addEnemy(Enemy enemy) {
@@ -39,16 +50,37 @@ public class EnemyManager : MonoBehaviour
             allEnemies.Remove(enemy);
     }
 
-    public void SpawnEnemy(Vector3 position)
+    public void SpawnEnemy(Vector3 position, GameObject enemyType)
     {
-        GameObject enemyObj = Instantiate(enemyPrefab, position, Quaternion.identity);
+        GameObject enemyObj = Instantiate(enemyType, position, Quaternion.identity);
         Enemy enemy = enemyObj.GetComponent<Enemy>();
         allEnemies.Add(enemy);
     }
 
-    public void MoveEnemies(Vector3 direction) {
-        foreach (Enemy enemy in allEnemies) {
-            enemy.move(direction);
+    public void MoveEnemy(GameObject enemyType) {
+    
+    }
+
+    public void triggerenter(Collider2D other)
+    {
+        if (other.tag != "Ground") {
+            print("You just took damage");
+        }
+    }
+
+
+    public void triggerstay(Collider2D other)
+    {
+        if (other.tag != "Ground") {
+
+        }
+    }
+
+
+    public void triggerexit(Collider2D other)
+    {
+        if (other.tag != "Ground") {
+
         }
     }
 }
