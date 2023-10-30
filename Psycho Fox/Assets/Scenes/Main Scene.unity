@@ -181,6 +181,8 @@ GameObject:
   - component: {fileID: 268670099}
   - component: {fileID: 268670101}
   - component: {fileID: 268670102}
+  - component: {fileID: 268670103}
+  - component: {fileID: 268670104}
   m_Layer: 0
   m_Name: PsychoFox
   m_TagString: Untagged
@@ -360,8 +362,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf09ba9921d11c34ebcf1139eaffe436, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
-  jumpForce: 3
+  moveSpeed: 1.26
+  jumpForce: 3.94
+--- !u!58 &268670103
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268670095}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.002265796, y: -0.020391911}
+  serializedVersion: 2
+  m_Radius: 0.11686444
+--- !u!114 &268670104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268670095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14e461e77ef167c4eb5f2ada3a2ed58d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &470071237
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,7 +440,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a53c263800300ac488a58789843827a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 3986009615317048412, guid: a2b0d86c75d1b38489c0eb7a077cd5e6, type: 3}
+  enemyOne: {fileID: 3986009615317048412, guid: a2b0d86c75d1b38489c0eb7a077cd5e6, type: 3}
+  enemyTwo: {fileID: 2640647201004841001, guid: 9450ac92051647d4fb02830cf2578482, type: 3}
+  fox: {fileID: 268670095}
 --- !u!4 &470071239
 Transform:
   m_ObjectHideFlags: 0
@@ -513,7 +564,7 @@ GameObject:
   - component: {fileID: 935002963}
   m_Layer: 0
   m_Name: GallowayBox (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -671,7 +722,7 @@ GameObject:
   - component: {fileID: 1700076276}
   m_Layer: 0
   m_Name: GallowayBox (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -809,8 +860,8 @@ Transform:
   m_GameObject: {fileID: 1700076275}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.468, y: -0.3145, z: 0}
-  m_LocalScale: {x: 0.5691641, y: 0.06257128, z: 1}
+  m_LocalPosition: {x: 2.3081, y: -0.3145, z: 0}
+  m_LocalScale: {x: 2.0412502, y: 0.06257128, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -829,7 +880,7 @@ GameObject:
   - component: {fileID: 1954449266}
   m_Layer: 0
   m_Name: GallowayBox (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -987,7 +1038,7 @@ GameObject:
   - component: {fileID: 2050052341}
   m_Layer: 0
   m_Name: GallowayBox
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1125,8 +1176,8 @@ Transform:
   m_GameObject: {fileID: 2050052340}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2555, y: -0.3015, z: 0}
-  m_LocalScale: {x: 0.09036502, y: 0.054001275, z: 1}
+  m_LocalPosition: {x: -2.8321, y: -0.3015, z: 0}
+  m_LocalScale: {x: 1.3516077, y: 0.054001275, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1145,7 +1196,7 @@ GameObject:
   - component: {fileID: 2062812629}
   m_Layer: 0
   m_Name: GallowayBox (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1303,7 +1354,7 @@ GameObject:
   - component: {fileID: 2079777572}
   m_Layer: 0
   m_Name: GallowayBox (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
