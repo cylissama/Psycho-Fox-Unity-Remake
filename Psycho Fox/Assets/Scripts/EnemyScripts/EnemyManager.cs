@@ -32,8 +32,8 @@ public class EnemyManager : MonoBehaviour
             colliderObj = fox.GetComponent<CircleCollider2D>();
         }
 
-        SpawnEnemy(new Vector3(0, -0.13f, 0), enemyOne);
-        SpawnEnemy(new Vector3(0.5f, -0.08f, 0), enemyTwo);
+        SpawnEnemy(new Vector3(0, 1f, 0), enemyOne);
+        SpawnEnemy(new Vector3(0.5f, 1f, 0), enemyTwo);
     }
 
     void Update() {
