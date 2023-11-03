@@ -2,20 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerManager : MonoBehaviour
+public class MenuTimer : MonoBehaviour
 {
-
-    public static PlayerManager Instance { get; private set; }
-
-    private void Awake() {
-        if (Instance == null) {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        } else {
-            Destroy(gameObject);
-        }
-    }
-
     private float menuTime = 0f;
 
     private void OnEnable() {
@@ -39,6 +27,6 @@ public class PlayerManager : MonoBehaviour
     }
 
     private void LogMenuTime() {
-        Debug.Log("User spent " + menuTime + " seconds in the game.");
+        Debug.Log("User spent " + menuTime + " seconds in the menu.");
     }
 }
