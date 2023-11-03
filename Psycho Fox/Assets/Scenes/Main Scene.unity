@@ -657,6 +657,7 @@ GameObject:
   - component: {fileID: 268670102}
   - component: {fileID: 268670103}
   - component: {fileID: 268670104}
+  - component: {fileID: 268670105}
   m_Layer: 0
   m_Name: PsychoFox
   m_TagString: Untagged
@@ -885,6 +886,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14e461e77ef167c4eb5f2ada3a2ed58d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &268670105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268670095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9ddd81b41ca994192fc61b352c42aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &366070051
 GameObject:
   m_ObjectHideFlags: 0
@@ -1052,7 +1065,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 470071239}
-  - component: {fileID: 470071238}
+  - component: {fileID: 470071240}
   m_Layer: 0
   m_Name: EnemyManager
   m_TagString: Untagged
@@ -1060,21 +1073,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &470071238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 470071237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a53c263800300ac488a58789843827a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyOne: {fileID: 3986009615317048412, guid: a2b0d86c75d1b38489c0eb7a077cd5e6, type: 3}
-  enemyTwo: {fileID: 2640647201004841001, guid: 9450ac92051647d4fb02830cf2578482, type: 3}
-  fox: {fileID: 268670095}
 --- !u!4 &470071239
 Transform:
   m_ObjectHideFlags: 0
@@ -1090,6 +1088,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &470071240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470071237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53c263800300ac488a58789843827a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyOne: {fileID: 3986009615317048412, guid: a2b0d86c75d1b38489c0eb7a077cd5e6, type: 3}
+  enemyTwo: {fileID: 2640647201004841001, guid: 9450ac92051647d4fb02830cf2578482, type: 3}
+  fox: {fileID: 268670095}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

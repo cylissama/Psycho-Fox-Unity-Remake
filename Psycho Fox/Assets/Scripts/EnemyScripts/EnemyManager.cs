@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Diagnostics;
 
 public class EnemyManager : MonoBehaviour
 {
@@ -32,7 +33,13 @@ public class EnemyManager : MonoBehaviour
             colliderObj = fox.GetComponent<CircleCollider2D>();
         }
 
+        Stopwatch stopwatch = new Stopwatch();
+        stopwatch.Start();
         SpawnEnemy(new Vector3(0, 1f, 0), enemyOne);
+        stopwatch.Stop();
+        UnityEngine.Debug.Log("Time taken: " + stopwatch.ElapsedMilliseconds + "ms");
+
+
         SpawnEnemy(new Vector3(0.5f, 1f, 0), enemyTwo);
     }
 
