@@ -10,8 +10,6 @@ public class StartGameButton : MonoBehaviour
         st.Start();
         SceneManager.LoadScene("Main Scene");
         st.Stop();
-        UnityEngine.Debug.Log(string.Format
-        ("StartGame took {0} ms to complete", 
-        st.ElapsedMilliseconds));
+        UnityEngine.Debug.Log(string.Format ("StartGame took {0} ms to complete", st.ElapsedMilliseconds));
     }
 }
