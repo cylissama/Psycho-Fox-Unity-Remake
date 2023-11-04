@@ -37,7 +37,7 @@ public class EnemyManager : MonoBehaviour
         stopwatch.Start();
         SpawnEnemy(new Vector3(0, 1f, 0), enemyOne);
         stopwatch.Stop();
-        UnityEngine.Debug.Log("Time taken: " + stopwatch.ElapsedMilliseconds + "ms");
+        UnityEngine.Debug.Log("SpawnEnemy took " + stopwatch.ElapsedMilliseconds + "ms to complete");
 
 
         SpawnEnemy(new Vector3(0.5f, 1f, 0), enemyTwo);
