@@ -43,7 +43,11 @@ public class foxMovement : MonoBehaviour
             StartCoroutine(waiter());
         }
 
+        Stopwatch stopwatch = new Stopwatch();
+        stopwatch.Start();
         UpdateAnimatorState();
+        stopwatch.Stop();
+        UnityEngine.Debug.Log("UpdateAnimation took " + stopwatch.ElapsedMilliseconds + "ms to complete");
 
     }
 
