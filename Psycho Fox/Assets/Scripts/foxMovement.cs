@@ -5,75 +5,70 @@ using System.Diagnostics;
 
 public class foxMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Adjust the speed as needed.
-    private Animator anim;
-    private SpriteRenderer sprite;
-    float horizontalInput;
+    public float moveSpeed = 5f;
     public float jumpForce = 0.5f;
+    public Animator animator;
+    private SpriteRenderer sprite;
+    public Rigidbody2D rb;
+    public float acceleration = 10f;
+    public float friction = 5f;
+    private Vector2 velocity;
+    private bool isMoving;
     private bool isGrounded = true;
-    private Rigidbody2D rb;
+
     private void Start()
     {
-        anim = GetComponent<Animator>();
-        sprite = GetComponent<SpriteRenderer>();
-        rb = GetComponent<Rigidbody2D>();
+
     }
 
-    private void Update()
+    private void Update() 
     {
-        // Get input from the player
-        horizontalInput = Input.GetAxis("Horizontal");
 
-        // Calculate the movement vector
-        Vector3 movement = new Vector3(horizontalInput, 0f, 0f);
+        // Get horizontal input from the player
+        float horizontalInput = Input.GetAxis("Horizontal");
 
-        // Normalize the vector to ensure consistent speed in all directions
-        movement.Normalize();
+        if (Mathf.Abs(horizontalInput) > 0.1f) {
+            // Start accelerating
+            velocity.x += horizontalInput * acceleration * Time.deltaTime;
+            isMoving = true;
 
-        // Move the player
-        transform.Translate(movement * moveSpeed * Time.deltaTime);
+            // Flip the sprite when moving left
+            if (horizontalInput < 0) {
+                GetComponent<SpriteRenderer>().flipX = true;
+            } else {
+                GetComponent<SpriteRenderer>().flipX = false;
+            }
 
-        //isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 0.1f);
-
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            isGrounded = false;
-            anim.SetBool("isJump", true);
-            StartCoroutine(waiter());
+        } else {
+            // Start decclerating
+            velocity.x = Mathf.Lerp(velocity.x, 0f, friction * Time.deltaTime);
+            isMoving = false;
         }
 
-        Stopwatch stopwatch = new Stopwatch();
-        stopwatch.Start();
-        UpdateAnimatorState();
-        stopwatch.Stop();
-        UnityEngine.Debug.Log("UpdateAnimation took " + stopwatch.ElapsedMilliseconds + "ms to complete");
+        animator.SetFloat("Speed", Mathf.Abs(velocity.x));
 
+        if (isGrounded && Input.GetKeyDown(KeyCode.Space)) {
+            rb.AddForce(new Vector2(rb.velocity.x, jumpForce));
+            isGrounded = false;
+            animator.SetBool("isJump", true);
+            StartCoroutine(waiter());
+        }
+        
     }
 
-    // this solution is bad but it works for right now
+    void FixedUpdate() {
+    // velocity has to be within -moveSpeed and moveSpeed
+    velocity.x = Mathf.Clamp(velocity.x, -moveSpeed, moveSpeed);
+
+    // moves character
+    rb.velocity = velocity;
+    }
+
     IEnumerator waiter()
     {
         yield return new WaitForSeconds(0.6f);
-        anim.SetBool("isJump", false);
         isGrounded = true;
+        animator.SetBool("isJump", false);
     }
 
-    private void UpdateAnimatorState()
-    {
-        if(horizontalInput > 0f) //moving right
-        {
-            anim.SetBool("isRunning", true);
-            sprite.flipX = false;
-        }
-        else if (horizontalInput < 0f) //moving left
-        {
-            anim.SetBool("isRunning", true);
-            sprite.flipX = true;
-        }
-        else //not moving
-        {
-            anim.SetBool("isRunning", false);
-        }
-    }
 }
