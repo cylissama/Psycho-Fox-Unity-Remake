@@ -72,3 +72,22 @@ public class foxMovement : MonoBehaviour
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
