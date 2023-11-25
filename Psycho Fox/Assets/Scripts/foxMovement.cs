@@ -6,7 +6,7 @@ using System.Diagnostics;
 public class foxMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public float jumpForce = 0.5f;
+    public float jumpForce;
     public Animator animator;
     private SpriteRenderer sprite;
     public Rigidbody2D rb;
@@ -53,7 +53,6 @@ public class foxMovement : MonoBehaviour
             animator.SetBool("isJump", true);
             StartCoroutine(waiter());
         }
-        
     }
 
     void FixedUpdate() {
