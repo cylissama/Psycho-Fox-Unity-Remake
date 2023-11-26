@@ -10,7 +10,7 @@ public class camera_script : MonoBehaviour
     public float minCameraX;
     public float maxCameraY;
     public float minCameraY;
-    void Update() {
+    void FixedUpdate() {
 
         if (player.position.x > transform.position.x) {
             Vector3 targetPosition = new Vector3(player.position.x, transform.position.y, transform.position.z);
