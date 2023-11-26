@@ -9,6 +9,7 @@ public class CanvasController : MonoBehaviour
     public GameObject registrationPanel;
     public GameObject mainPanel;
     public GameObject scoreboardPanel;
+    public GameObject bootPanel;
 
     public InputField loginUsernameInput;
     public InputField loginPasswordInput;
@@ -24,7 +25,24 @@ public class CanvasController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ShowInitialPanel(); // Show the initial panel when the game starts
+        ShowBootPanel();
+    }
+
+    // Function to show the boot panel and hide others
+    void ShowBootPanel()
+    {
+        HideAllPanels();
+        bootPanel.SetActive(true);
+    }
+
+    // Function to hide all panels
+    void HideAllPanels()
+    {
+        loginPanel.SetActive(false);
+        registrationPanel.SetActive(false);
+        mainPanel.SetActive(false);
+        scoreboardPanel.SetActive(false);
+        bootPanel.SetActive(false);
     }
 
     /*
