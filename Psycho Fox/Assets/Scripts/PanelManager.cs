@@ -91,9 +91,9 @@ public class CanvasController : MonoBehaviour
     // ... (other functions remain the same)
     */
 
-    //Button Logic
+    //Panel activation
 
-    //Boot Panel
+    //loginPanel
     public void loginPanelActivate() {
         loginPanel.SetActive(true);
         registrationPanel.SetActive(false);
@@ -102,5 +102,41 @@ public class CanvasController : MonoBehaviour
         bootPanel.SetActive(false);
     }
     
+    //registrationPanel
+    public void registrationPanelActivate() {
+        loginPanel.SetActive(false);
+        registrationPanel.SetActive(true);
+        mainPanel.SetActive(false);
+        scoreboardPanel.SetActive(false);
+        bootPanel.SetActive(false);
+    }
+
+    //mainPanel
+    public void mainPanelActivate() {
+        loginPanel.SetActive(false);
+        registrationPanel.SetActive(false);
+        mainPanel.SetActive(true);
+        scoreboardPanel.SetActive(false);
+        bootPanel.SetActive(false);
+    }
+
+    //scoreboard
+    public void scoreboardPanelActivate() {
+        loginPanel.SetActive(false);
+        registrationPanel.SetActive(false);
+        mainPanel.SetActive(false);
+        scoreboardPanel.SetActive(true);
+        bootPanel.SetActive(false);
+    }
+    
+
+    //bootPanel
+    public void bootPanelActivate() {
+        loginPanel.SetActive(false);
+        registrationPanel.SetActive(false);
+        mainPanel.SetActive(false);
+        scoreboardPanel.SetActive(false);
+        bootPanel.SetActive(true);
+    }
 
 }
