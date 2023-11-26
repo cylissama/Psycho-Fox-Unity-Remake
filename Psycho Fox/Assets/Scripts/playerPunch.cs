@@ -5,7 +5,6 @@ using UnityEngine;
 public class playerPunch : MonoBehaviour
 {
     public Animator animator;
-    private bool punching = false;
 
 
     void Update()
