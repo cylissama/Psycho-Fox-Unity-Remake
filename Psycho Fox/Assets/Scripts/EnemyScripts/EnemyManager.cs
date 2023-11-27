@@ -32,15 +32,6 @@ public class EnemyManager : MonoBehaviour
         {
             colliderObj = fox.GetComponent<CircleCollider2D>();
         }
-
-        Stopwatch stopwatch = new Stopwatch();
-        stopwatch.Start();
-        SpawnEnemy(new Vector3(0, 1f, 0), enemyOne);
-        stopwatch.Stop();
-        UnityEngine.Debug.Log("SpawnEnemy took " + stopwatch.ElapsedMilliseconds + "ms to complete");
-
-
-        SpawnEnemy(new Vector3(0.5f, 1f, 0), enemyTwo);
     }
 
     void Update() {
@@ -55,13 +46,6 @@ public class EnemyManager : MonoBehaviour
     public void unaddEnemy(Enemy enemy) {
         if (allEnemies.Contains(enemy))
             allEnemies.Remove(enemy);
-    }
-
-    public void SpawnEnemy(Vector3 position, GameObject enemyType)
-    {
-        GameObject enemyObj = Instantiate(enemyType, position, Quaternion.identity);
-        Enemy enemy = enemyObj.GetComponent<Enemy>();
-        allEnemies.Add(enemy);
     }
 
     public void MoveEnemy(GameObject enemyType) {
