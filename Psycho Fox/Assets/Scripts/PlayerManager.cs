@@ -41,4 +41,6 @@ public class PlayerManager : MonoBehaviour
     private void LogMenuTime() {
         Debug.Log("User spent " + menuTime + " seconds in the game.");
     }
+
+    
 }
