@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public  PlayerManager playermanager;
     public float acceleration = 5.0f; // Acceleration rate
     public float deceleration = 5.0f; // Deceleration rate
     public float maxSpeed = 10.0f; // Maximum speed
@@ -19,54 +20,59 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        playermanager = GameObject.Find("PlayerManager").GetComponent<PlayerManager>() as PlayerManager;
     }
 
     void Update()
     {
-        // Check if the player is grounded
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        animator.SetBool("isJump", !isGrounded);
+        if (playermanager.alive == true) {
+            // Check if the player is grounded
+            isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+            animator.SetBool("isJump", !isGrounded);
 
-        // Get input from horizontal and vertical axes
-        float inputX = Input.GetAxis("Horizontal");
-        if (inputX > 0f) {
-            GetComponent<SpriteRenderer>().flipX = false;
-        } else if (inputX < 0f) {
-            GetComponent<SpriteRenderer>().flipX = true;
-        }
-        Vector2 inputDirection = new Vector2(inputX, 0).normalized;
+            // Get input from horizontal and vertical axes
+            float inputX = Input.GetAxis("Horizontal");
+            if (inputX > 0f) {
+                GetComponent<SpriteRenderer>().flipX = false;
+            } else if (inputX < 0f) {
+                GetComponent<SpriteRenderer>().flipX = true;
+            }
+            Vector2 inputDirection = new Vector2(inputX, 0).normalized;
 
-        // Apply acceleration or deceleration
-        if (inputDirection != Vector2.zero)
-        {
-            
-            // Accelerate towards the input direction
-            currentVelocity += inputDirection * acceleration * Time.deltaTime;
-            animator.SetFloat("Speed", Mathf.Abs(inputX));
-        }
-        else
-        {
-            // Apply deceleration when no input is given
-            if (currentVelocity.magnitude > 0)
+            // Apply acceleration or deceleration
+            if (inputDirection != Vector2.zero)
             {
-                currentVelocity -= currentVelocity.normalized * deceleration * Time.deltaTime;
-                if (currentVelocity.magnitude < 0.1f) // To stop completely if the speed is very low
+                
+                // Accelerate towards the input direction
+                currentVelocity += inputDirection * acceleration * Time.deltaTime;
+                animator.SetFloat("Speed", Mathf.Abs(inputX));
+            }
+            else
+            {
+                // Apply deceleration when no input is given
+                if (currentVelocity.magnitude > 0)
                 {
-                    currentVelocity = Vector2.zero;
+                    currentVelocity -= currentVelocity.normalized * deceleration * Time.deltaTime;
+                    if (currentVelocity.magnitude < 0.1f) // To stop completely if the speed is very low
+                    {
+                        currentVelocity = Vector2.zero;
+                    }
                 }
             }
-        }
 
-        // Clamp the velocity to the maximum speed
-        currentVelocity = Vector2.ClampMagnitude(currentVelocity, maxSpeed);
+            // Clamp the velocity to the maximum speed
+            currentVelocity = Vector2.ClampMagnitude(currentVelocity, maxSpeed);
 
-        // Apply horizontal movement
-        rb.velocity = new Vector2(currentVelocity.x, rb.velocity.y);
+            // Apply horizontal movement
+            rb.velocity = new Vector2(currentVelocity.x, rb.velocity.y);
 
-        // Jumping
-        if (Input.GetButtonDown("Jump") && isGrounded)
-        {
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            // Jumping
+            if (Input.GetButtonDown("Jump") && isGrounded)
+            {
+                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            }
+        } else {
+            rb.velocity = new Vector2(0, 0);
         }
     }
 }
