@@ -10,6 +10,7 @@ public class CanvasController : MonoBehaviour
     public GameObject mainPanel;
     public GameObject scoreboardPanel;
     public GameObject bootPanel;
+    public GameObject completionPanel;
 
     public InputField loginUsernameInput;
     public InputField loginPasswordInput;
@@ -24,7 +25,8 @@ public class CanvasController : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    {   
+        completionPanel.SetActive(false);
         ShowBootPanel();
     }
 
@@ -43,6 +45,7 @@ public class CanvasController : MonoBehaviour
         mainPanel.SetActive(false);
         scoreboardPanel.SetActive(false);
         bootPanel.SetActive(false);
+        completionPanel.SetActive(false);
     }
 
     /*
@@ -100,6 +103,7 @@ public class CanvasController : MonoBehaviour
         mainPanel.SetActive(false);
         scoreboardPanel.SetActive(false);
         bootPanel.SetActive(false);
+        completionPanel.SetActive(false);
     }
     
     //registrationPanel
@@ -109,6 +113,7 @@ public class CanvasController : MonoBehaviour
         mainPanel.SetActive(false);
         scoreboardPanel.SetActive(false);
         bootPanel.SetActive(false);
+        completionPanel.SetActive(false);
     }
 
     //mainPanel
@@ -118,6 +123,7 @@ public class CanvasController : MonoBehaviour
         mainPanel.SetActive(true);
         scoreboardPanel.SetActive(false);
         bootPanel.SetActive(false);
+        completionPanel.SetActive(false);
     }
 
     //scoreboard
@@ -127,6 +133,7 @@ public class CanvasController : MonoBehaviour
         mainPanel.SetActive(false);
         scoreboardPanel.SetActive(true);
         bootPanel.SetActive(false);
+        completionPanel.SetActive(false);
     }
     
 
@@ -137,6 +144,16 @@ public class CanvasController : MonoBehaviour
         mainPanel.SetActive(false);
         scoreboardPanel.SetActive(false);
         bootPanel.SetActive(true);
+        completionPanel.SetActive(false);
     }
 
+    //bootPanel
+    public void completionPanelActivate() {
+        loginPanel.SetActive(false);
+        registrationPanel.SetActive(false);
+        mainPanel.SetActive(false);
+        scoreboardPanel.SetActive(false);
+        bootPanel.SetActive(false);
+        completionPanel.SetActive(true);
+    }
 }
