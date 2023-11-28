@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public float deceleration = 5.0f; // Deceleration rate
     public float maxSpeed = 10.0f; // Maximum speed
     public float jumpForce = 10.0f; // Jump force
+    public float springForce = 2.5f; // Spring force
     public Transform groundCheck; // Transform to determine if the player is grounded
     public float groundCheckRadius = 0.5f; // Radius for ground check
     public LayerMask groundLayer; // LayerMask to determine what is ground
@@ -73,6 +74,12 @@ public class PlayerMovement : MonoBehaviour
             }
         } else {
             rb.velocity = new Vector2(0, 0);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D col) {
+        if (col.gameObject.CompareTag("Spring")) {
+            rb.AddForce(Vector2.up * springForce, ForceMode2D.Impulse);
         }
     }
 }
