@@ -11,8 +11,6 @@ public class DisplayLives : MonoBehaviour {
         PlayerManager.Instance.lives -= 1;
         int lives = PlayerManager.Instance.lives;
         print(lives);
-        TextMeshPro tmp = GameObject.Find("LivesDisplay").GetComponent<TextMeshPro>() as TextMeshPro;
-        tmp.SetText("X" + lives);
         SceneManager.LoadScene("Main Scene");
     }
 }

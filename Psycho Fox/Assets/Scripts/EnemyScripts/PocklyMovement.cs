@@ -8,7 +8,7 @@ public class PocklyMovement : MonoBehaviour
     void Update()
     {
         if (PlayerManager.Instance.alive == true) {
-            transform.Translate (-0.0005f, 0f, 0f);
+            transform.Translate (-0.005f, 0f, 0f);
         }
         
     }
