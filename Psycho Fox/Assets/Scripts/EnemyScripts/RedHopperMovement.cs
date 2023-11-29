@@ -5,40 +5,38 @@ using UnityEngine;
 public class RedHopperMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
-    public Vector2 velocity;
     public float jumpForce;
     private bool isGrounded;
     public Transform groundCheck;
-    public float groundCheckRadius = 0.5f;
     public LayerMask groundLayer;
-    public Animator animator;
-    public bool crouched;
+    [SerializeField] Vector2 boxsize;
+    public float relPos;
+    public GameObject bro;
 
     void FixedUpdate()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-
-        if (isGrounded) {
-            animator.SetBool("isJumping", false);
-            crouched = true;
+        if (PlayerManager.Instance.alive && (PlayerManager.Instance.xlocation - transform.position.x > -2f)) {
+            isGrounded = Physics2D.OverlapBox(groundCheck.position, boxsize, 0, groundLayer);
+            if (isGrounded) {
+                Jump();
+            }
+        } else if (!PlayerManager.Instance.alive){
+            Destroy(bro);
         }
+        
         
     }
 
     public void Jump() {
-
-        if (crouched) {
-            crouched = false;
-            animator.SetBool("isJumping", true);
+            
             if (PlayerManager.Instance.xlocation < transform.position.x) {
-                rb.velocity = new Vector2(-0.1f, rb.velocity.y);
-                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                relPos = -0.0008f;
             } else {
-                rb.velocity = new Vector2(0.1f, rb.velocity.y);
-                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                relPos = 0.0008f;
             }
-        }
-        
-    }
 
+                rb.AddForce(new Vector2(relPos, jumpForce), ForceMode2D.Impulse);
+    }
+        
 }
+
