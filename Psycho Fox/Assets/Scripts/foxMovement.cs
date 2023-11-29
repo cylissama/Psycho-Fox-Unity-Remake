@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public  PlayerManager playermanager;
     public float acceleration = 5.0f; // Acceleration rate
     public float deceleration = 5.0f; // Deceleration rate
     public float maxSpeed = 10.0f; // Maximum speed
@@ -21,12 +20,11 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        playermanager = GameObject.Find("PlayerManager").GetComponent<PlayerManager>() as PlayerManager;
     }
 
     void Update()
     {
-        if (playermanager.alive == true) {
+        if (PlayerManager.Instance.alive == true) {
             // Check if the player is grounded
             isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
             animator.SetBool("isJump", !isGrounded);
@@ -66,6 +64,8 @@ public class PlayerMovement : MonoBehaviour
 
             // Apply horizontal movement
             rb.velocity = new Vector2(currentVelocity.x, rb.velocity.y);
+            //update the player's location
+            PlayerManager.Instance.xlocation = transform.position.x;
 
             // Jumping
             if (Input.GetButtonDown("Jump") && isGrounded)
