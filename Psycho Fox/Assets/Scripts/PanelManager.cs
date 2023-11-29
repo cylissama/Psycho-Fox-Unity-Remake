@@ -26,15 +26,7 @@ public class CanvasController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {   
-        completionPanel.SetActive(false);
-        ShowBootPanel();
-    }
-
-    // Function to show the boot panel and hide others
-    void ShowBootPanel()
-    {
-        HideAllPanels();
-        bootPanel.SetActive(true);
+        bootPanelActivate();
     }
 
     // Function to hide all panels
@@ -47,52 +39,6 @@ public class CanvasController : MonoBehaviour
         bootPanel.SetActive(false);
         completionPanel.SetActive(false);
     }
-
-    /*
-    // Function to show the initial panel
-    void ShowInitialPanel()
-    {
-        if (isLoggedIn)
-        {
-            ShowMainPanel();
-        }
-        else
-        {
-            ShowLoginPanel();
-        }
-    }
-    */
-
-    // ... (other functions remain the same)
-
-    /*
-    // Function to handle register button click (on registration panel)
-    public void RegisterButtonOnRegistrationPanelClicked()
-    {
-        string username = registerUsernameInput.text;
-        string password = registerPasswordInput.text;
-
-        // Register user (replace this with your registration logic)
-        RegisterUser(username, password);
-        isLoggedIn = true;
-        loggedInUsername = username;
-        ShowMainPanel();
-    }
-
-    // Function to switch from login panel to registration panel
-    public void SwitchToRegistrationPanel()
-    {
-        ShowRegistrationPanel();
-    }
-
-    // Function to switch from registration panel to login panel
-    public void SwitchToLoginPanel()
-    {
-        ShowLoginPanel();
-    }
-
-    // ... (other functions remain the same)
-    */
 
     //Panel activation
 
