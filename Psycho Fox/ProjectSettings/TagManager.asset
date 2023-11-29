@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Death
   - Spring
+  - Attack
+  - Fist
   layers:
   - Default
   - TransparentFX
@@ -15,7 +17,7 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
+  - Attack
   - 
   - 
   - 
