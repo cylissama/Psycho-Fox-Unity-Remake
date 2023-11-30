@@ -12,11 +12,13 @@ public class DisplayLives : MonoBehaviour {
     void Start() {
         PlayerManager.Instance.alive = true;
         PlayerManager.Instance.lives -= 1;
-        text.GetComponent<TextMeshProUGUI>().text = "X" + lives;
+        // text.GetComponent<TextMeshProUGUI>().text = "X" + (lives);
+        text.GetComponent<TextMeshProUGUI>().text = "X" + (lives - 1);
     }
 
     public void LoadGameScene() {
-        if (lives == 0) {
+        // if (lives == 0)
+        if (lives == 1) {
             SceneManager.LoadScene("Boot Screen");
         } else {
             SceneManager.LoadScene("Main Scene");
