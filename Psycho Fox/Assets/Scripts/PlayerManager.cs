@@ -7,7 +7,7 @@ public class PlayerManager : MonoBehaviour
 
     public static PlayerManager Instance { get; private set; }
     public bool alive = true;
-    public int lives = 3;
+    public int lives = 2;
     public float xlocation;
 
     private void Awake() {

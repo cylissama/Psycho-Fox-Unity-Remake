@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9201344104574624364}
   - component: {fileID: 1408366723102930460}
   - component: {fileID: 6208690545659524812}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RedHopper 1 (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -161,7 +161,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.007109493, y: -0.43383545}
+  m_Offset: {x: -0.007109508, y: 0.0042085946}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -172,7 +172,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.08148965, y: 0.1323291}
+  m_Size: {x: 0.60293365, y: 0.75598484}
   m_EdgeRadius: 0
 --- !u!114 &6208690545659524812
 MonoBehaviour:
@@ -290,7 +290,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0023700297, y: 0}
+  m_Offset: {x: 0.005905807, y: 0.012992784}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -301,5 +301,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.72035795, y: 1}
+  m_Size: {x: 0.73691154, y: 0.8700714}
   m_EdgeRadius: 0
