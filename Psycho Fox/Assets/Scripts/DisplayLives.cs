@@ -6,11 +6,20 @@ using TMPro;
 
 public class DisplayLives : MonoBehaviour {
 
-    public void LoadGameScene() {
+    public GameObject text;
+    private int lives = PlayerManager.Instance.lives;
+
+    void Start() {
         PlayerManager.Instance.alive = true;
         PlayerManager.Instance.lives -= 1;
-        int lives = PlayerManager.Instance.lives;
-        print(lives);
-        SceneManager.LoadScene("Main Scene");
+        text.GetComponent<TextMeshProUGUI>().text = "X" + lives;
+    }
+
+    public void LoadGameScene() {
+        if (lives == 0) {
+            SceneManager.LoadScene("Boot Screen");
+        } else {
+            SceneManager.LoadScene("Main Scene");
+        }
     }
 }
