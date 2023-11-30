@@ -5,7 +5,7 @@ using System.Diagnostics;
 
 public class Enemy : MonoBehaviour
 {   
-    private float speed = 0.2f;
+    private float speed = 0.05f;
 
     private void OnEnable()  {
 

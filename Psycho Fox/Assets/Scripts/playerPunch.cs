@@ -13,7 +13,7 @@ public class playerPunch : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) {
+        if (Input.GetMouseButtonDown(0) | Input.GetKeyDown("x")) {
             animator.SetTrigger("Punch");
         }
     }

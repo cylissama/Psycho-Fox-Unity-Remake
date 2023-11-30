@@ -16,10 +16,16 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 currentVelocity; // Current velocity of the object
     private bool isGrounded; // Is the player on the ground?
     private Rigidbody2D rb; // Rigidbody2D component of the object
+    public AudioSource jumpAudioSource;
+    public AudioClip jumpSound;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        if (jumpAudioSource == null)
+        {
+            jumpAudioSource = GetComponent<AudioSource>();
+        }
     }
 
     void Update()
@@ -70,6 +76,7 @@ public class PlayerMovement : MonoBehaviour
             // Jumping
             if (Input.GetButtonDown("Jump") && isGrounded)
             {
+                PlayJumpSound();
                 rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             }
         } else {
@@ -77,6 +84,15 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    void PlayJumpSound()
+    {
+        // Check if there is an audio clip assigned
+        if (jumpSound != null && jumpAudioSource != null)
+        {
+            // Play the jump sound
+            jumpAudioSource.PlayOneShot(jumpSound);
+        }
+    }
     private void OnCollisionEnter2D(Collision2D col) {
         if (col.gameObject.CompareTag("Spring")) {
             rb.AddForce(Vector2.up * springForce, ForceMode2D.Impulse);
